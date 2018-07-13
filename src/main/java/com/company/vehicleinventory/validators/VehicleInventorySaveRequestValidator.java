@@ -13,12 +13,10 @@ import javax.validation.ConstraintValidatorContext;
  */
 public class VehicleInventorySaveRequestValidator implements ConstraintValidator <VehicleInventorySaveRequestIsValid, VehicleInventoryRequest> {
 
-    @Override
     public void initialize(VehicleInventorySaveRequestIsValid vehicleInventorySaveRequestIsValid) {
 
     }
 
-    @Override
     public boolean isValid(VehicleInventoryRequest vehicleInventorySaveRequest, ConstraintValidatorContext context) {
         if (vehicleInventorySaveRequest == null) {
             return false;

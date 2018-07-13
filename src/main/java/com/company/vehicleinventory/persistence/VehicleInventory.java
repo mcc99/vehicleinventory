@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.Calendar;
 
 @Entity
-@Table(name = "VEHICLE_INVENTORY", schema = "RACKSPACE")
+@Table(name = "VEHICLE_INVENTORY", schema = "COMPANY")
 public class VehicleInventory implements Serializable {
 
     private String vin;
